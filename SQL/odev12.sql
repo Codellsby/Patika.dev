@@ -1,6 +1,5 @@
 -- Aşağıdaki sorgu senaryolarını dvdrental örnek veri tabanı üzerinden gerçekleştiriniz.
-
--- 1- actor ve customer tablolarında bulunan first_name sütunları için tüm verileri sıralayalım.
+-- 1-film tablosunda film uzunluğu length sütununda gösterilmektedir. Uzunluğu ortalama film uzunluğundan fazla kaç tane film vardır?
 
 SELECT COUNT(*)
 FROM film
@@ -10,7 +9,7 @@ SELECT AVG(length)
 FROM film
 );
 
--- 2-actor ve customer tablolarında bulunan first_name sütunları için kesişen verileri sıralayalım.
+-- 2-film tablosunda en yüksek rental_rate değerine sahip kaç tane film vardır?
 
 SELECT COUNT(*) 
 FROM film
@@ -20,7 +19,7 @@ SELECT MAX(rental_rate)
 FROM film
 );
 
--- 3-actor ve customer tablolarında bulunan first_name sütunları için ilk tabloda bulunan ancak ikinci tabloda bulunmayan verileri sıralayalım.
+-- 3-film tablosunda en düşük rental_rate ve en düşün replacement_cost değerlerine sahip filmleri sıralayınız.
 
 SELECT *
 FROM film
@@ -36,10 +35,7 @@ SELECT MIN(replacement_cost)
 FROM film
 )
 
--- 4-İlk 3 sorguyu tekrar eden veriler için de yapalım.
+-- 4-payment tablosunda en fazla sayıda alışveriş yapan müşterileri(customer) sıralayınız.
 
-SELECT customer_id, SUM(amount) 
-FROM payment
-GROUP BY customer_id
-ORDER BY SUM DESC
-LIMIT 5;
+SELECT customer_id, SUM(amount)  FROM payment GROUP BY customer_id ORDER BY SUM DESC LIMIT 5;
+
