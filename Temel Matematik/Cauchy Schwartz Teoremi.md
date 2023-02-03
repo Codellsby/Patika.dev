@@ -1,11 +1,13 @@
-Cauchy Schwartz Teoremi, vektörler arasındaki çarpımın maksimum değerine sahip olduğunu gösterir. Teorem, aşağıdaki eşitliği sağlar:
+Cauchy-Schwarz Teoremi, bir vektör uzayında iki vektörün çarpımının en büyük değerini bulmak için kullanılan önemli bir teoredir. Teoremin adı, 19. yüzyılda Fransız matematikçi Augustin-Louis Cauchy ve Polonyalı matematikçi Hermann Amandus Schwarz tarafından keşfedilmiştir.
 
-|(x, y)| \leq \|x\|\cdot\|y\|
+Teorem, iki vektör x ve y için aşağıdaki şekildedir:
 
-Burada, x ve y vektörlerdir ve \|x\| ve \|y\| vektörlerin uzunluklarıdır.
+$$
+|(x, y)| \leq \||x\||\cdot\||y\||
+$$
 
-Bu teorem, bir vektörün diğerine olan benzerliğini ölçmek için kullanılabilir. İki vektör arasındaki benzerlik, onların uzunluklarına oranı ile ölçülür ve bu oran Cauchy Schwartz Teoremi'nin sağladığı sınırla sınırlıdır.
+Burada $(\mathbf{x}, \mathbf{y})$ vektörlerin çarpımı olarak tanımlanır ve $\|\mathbf{x}\|$ ve $\|\mathbf{y}\|$ ise vektörlerin uzunluklarıdır.
 
-Ayrıca, Cauchy Schwartz Teoremi, çok boyutlu integral hesaplamalarında ve optimize edilmesinde de kullanılabilir.
+Cauchy-Schwarz Teoremi, birçok matematik ve fizik problemi çözmek için kullanılabilir. Örneğin, lineer optimizasyon problemlerinde, verilen bir fonksiyonun en yüksek veya en düşük değerini bulmak için kullanılabilir. Ayrıca, Fourier dönüşümlerinde, signal işleme problemlerinde ve doğrusal cebir ve matris teorisi gibi diğer matematik alanlarında da kullanılabilir.
 
-Özet olarak, Cauchy Schwartz Teoremi, vektörler arasındaki benzerliği ölçmek ve çok boyutlu matematik problemlerinin çözümünde kullanılan önemli bir araçtır.
+Cauchy-Schwarz Teoremi, çok sayıda uygulama alanı bulunan ve çok yönlü bir teoremdir ve matematik eğitiminde öğrencilerin öncelikli olarak öğrenmesi gereken teoremlardan biridir.
