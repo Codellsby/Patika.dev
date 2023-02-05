@@ -1,4 +1,4 @@
-# selectionSort_Project
+# selectionSort
 
 
 <a href='https://www.patika.dev/'>patika</a>
@@ -29,10 +29,10 @@
 - Average case'e girer
 ----
 ##### 4. [7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a göre ilk 4 adımını yazınız.
-- `[2,3,5,8,7,9,4,15,6]` 1. Adım
+- 1.Adım ---`[2,3,5,8,7,9,4,15,6]` 
 
-- `[2,3,4,8,7,9,5,15,6]` 2. Adım
+- 1.Adım ---`[2,3,4,8,7,9,5,15,6]` 
 
-- `[2,3,4,5,7,9,8,15,6]` 3. Adım
+- 1.Adım ---`[2,3,4,5,7,9,8,15,6]` 
 
-- `[2,3,4,5,6,9,8,15,7]` 4. Adım
+- 1.Adım ---`[2,3,4,5,6,9,8,15,7]` 
